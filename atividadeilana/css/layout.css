@@ -1,0 +1,87 @@
+/* Cabeçalho */
+header {
+    background-color: #1b5f20; /* Define a cor de fundo do cabeçalho como verde escuro */
+    color: white; /* Define a cor do texto como branco */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    padding: 1px 0; /* Adiciona um espaçamento de 10px no topo e na base do cabeçalho */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve embaixo do cabeçalho */
+    position: relative; /* Define a posição relativa para facilitar a sobreposição de elementos */
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif; /* Define a fonte do título como Poppins */
+    font-size: 1.0rem; /* Define o tamanho da fonte como 2.5 rem */
+    font-weight: 100; /* Define a espessura da fonte como seminegrito */
+    letter-spacing: 2px; /* Define um espaçamento entre as letras */
+    text-transform: uppercase; /* Converte o texto para letras maiúsculas */
+    margin: 3; /* Remove margens ao redor do título */
+    border: 2px solid white; /* Adiciona uma borda branca de 3px ao redor do título */
+    padding: 6px; /* Adiciona um espaçamento interno entre o texto e a borda */
+    display: inline-block; /* Mantém o título em bloco, ocupando o mínimo de espaço */
+    border-radius: 15px; /* Arredonda os cantos da borda do título */
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Roboto', sans-serif; /* Define a fonte para os parágrafos como Roboto */
+    font-size: 1.1rem; /* Define o tamanho da fonte como 1.1 rem */
+}
+
+/* Navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    background-color: #2c502c; /* Define a cor de fundo da barra de navegação como verde escuro */
+    padding: 0%; /* Remove o espaçamento interno do elemento <ul> */
+    display: flex; /* Define o layout da lista como flexível para alinhamento dos itens */
+    justify-content: space-around; /* Distribui os itens de navegação uniformemente */
+    margin: auto; /* Centraliza a barra de navegação */
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif; /* Define a fonte dos links de navegação como Roboto */
+    color: white; /* Define a cor do texto dos links como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 1.2rem; /* Define o tamanho da fonte como 1.2 rem */
+    font-weight: bold; /* Define a espessura do texto dos links como negrito */
+    letter-spacing: 1px; /* Define um espaçamento entre as letras dos links */
+    transition: all 0.3s ease; /* Adiciona uma transição suave de 0.2s para alterações nos links */
+}
+
+nav ul li {
+    display: inline-block; /* Exibe os itens da lista em linha */
+    margin-right: 10px; /* Adiciona um espaçamento de 10px à direita de cada item */
+}
+
+nav ul li a {
+    color: white; /* Define a cor dos links como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 10px 15px; /* Adiciona espaçamento interno nos links */
+    display: inline-block; /* Mantém o link como bloco em linha */
+}
+
+nav ul li a:hover {
+    background-color: #216b26; /* Define a cor de fundo dos links ao passar o mouse como verde escuro */
+    color: white; /* Define a cor do texto dos links ao passar o mouse como branco */
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #dd3f3f; /* Altera a cor do texto do link para vermelho ao passar o mouse */
+    transform: scale(1.0); /* Aplica uma leve transformação no tamanho dos links ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #345234; /* Define a cor de fundo do rodapé como verde mais escuro */
+    color: white; /* Define a cor do texto do rodapé como branco */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px 0; /* Adiciona um espaçamento de 10px no topo e na base do rodapé */
+    position: relative; /* Define a posição relativa para facilitar o layout */
+    width: 100%; /* Define a largura do rodapé como 100% do contêiner */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+}

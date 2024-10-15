@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Define a fonte do site como Roboto, com uma alternativa sans-serif */
+    background-color: #ecf0f1; /* Define a cor de fundo do corpo do site como um tom claro */
+    color: #396639; /* Define a cor do texto principal como verde escuro */
+    margin: 0; /* Remove margens padrão ao redor da página */
+    padding: 0; /* Remove espaçamentos internos do corpo */
+}
+
+/* Seção */
+section {
+    margin: 30px;
+    margin-left: 60;
+    margin-right: 60;
+    text-align: justify; /* Justifica o texto das seções para que fique alinhado nas duas margens */
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto dos títulos <h1> */
+}
+
+/* Conteúdo geral da seção */
+p {
+    text-align: left; /* Alinha o texto dos parágrafos à esquerda */
+    text-align: justify; /* Justifica o texto dos parágrafos para alinhamento nas duas margens */
+}
+
+
+
+/* Imagens */
+img {
+    width: 25%; /* Define a largura das imagens em 25% da largura do contêiner pai */
+    max-width: 100%; /* Garante que a largura da imagem não exceda 100% do contêiner pai */
+    height: auto; /* Mantém a proporção da altura conforme a largura */
+    border-radius: 10px; /* Arredonda os cantos das imagens em 10px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve abaixo da imagem */
+    display: block; /* Faz a imagem ser exibida como um bloco, ocupando toda a linha */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+/* Figcaption */
+figcaption {
+    text-align: center; /* Centraliza o texto das legendas das imagens */
+    margin-top: 10px; /* Adiciona um espaço de 10px acima das legendas */
+    font-style: italic; /* Aplica o estilo itálico ao texto das legendas */
+}
+
+/* Centraliza o logo */
+#logo {
+    max-width: 150px; /* Define a largura máxima do logo em 150px */
+    height: auto; /* Mantém a proporção da altura do logo */
+    display: block; /* Exibe o logo como um bloco, ocupando a linha toda */
+    margin: 0 auto; /* Centraliza o logo horizontalmente */
+}
+
+/* Centralizar vídeo */
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%; /* Para garantir que o vídeo seja responsivo */
+    border: 2px solid #ccc; /* Borda ao redor do vídeo */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor do vídeo */
+}
+
+/* Adicionar efeito ao passar o mouse */
+iframe:hover {
+    transform: scale(1.05); /* Leve zoom */
+    transition: transform 0.3s ease;
+}
